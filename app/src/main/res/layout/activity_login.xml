@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textColor="@color/grey"
+        android:text="Facebook" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero de celular o correo electrónico"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="6dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:layout_weight="1.5"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="8dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="6dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:layout_weight="1.5"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="8dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/blue"
+        android:layout_marginVertical="5dp"
+        android:text="Iniciar sesión " />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:layout_marginLeft="6dp"/>
+
+    <Button
+        android:id="@+id/buttonCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="90dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginVertical="5dp"
+        android:text="Crear cuenta nueva " />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Español"
+        android:gravity="bottom"
+        android:layout_weight="2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginLeft="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English(US)"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_marginLeft="6dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Francais(France)"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_marginLeft="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Portugues(Brasil)"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_marginLeft="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Italiano"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_marginLeft="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Más idiomas..."
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_marginLeft="6dp"/>
+
+
+
+</LinearLayout>
